@@ -1,17 +1,16 @@
 
-export const Button = ({label,bgColor,hoverBgColor,textPrimaryColor,textSecondaryColor}) =>{
+
+// eslint-disable-next-line react/prop-types
+export const Button = ({label = "Contact me"}) =>{
 
  
 
   return (
-    <button className={`p-3 max-w-32 transition duration-500 ease-in-out border hover:bg-${hoverBgColor} dark:hover:texxt-${textPrimaryColor} dark:text-${textSecondaryColor} `}>{label}</button>
-  )
+    <>
+      <a href="#" className={`p-3 max-w-32 transition duration-500 ease-in-out border hover:bg-accent dark:hover:text-primary dark:text-secondary}`}>{label}</a>
+    </>
+    
+    )
 
 }
-Button.defaultProps  = {
-  label:'Contact me',
-  bgColor:'secondary',
-  hoverBgColor:'accent',
-  textPrimaryColor:'primary',
-  textSecondaryColor:'secondary'
-}
+

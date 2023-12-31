@@ -1,10 +1,6 @@
 
 export const Nav = () => {
 
-  const hoverSpan = () => {
-    console(document.querySelector('about').nodeValue)
-  }
-
   return (
     <>
       <nav className='hidden text-2xl font-light lg:border-r secondary-menu justify-evenly sm:flex md:pt-3 dark:bg-primary dark:text-secondary lg:flex-col lg:justify-center lg:pl-10 lg:pb-36 lg:h-screen lg:space-y-10'>
