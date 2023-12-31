@@ -8,10 +8,10 @@ export const HeaderNav = () => {
   const toggleMenu = () => {
 
     const secondaryMenu = document.querySelector('.secondary-menu')
-    if (secondaryMenu.getAttribute('class') === 'hidden text-2xl font-light border-r secondary-menu justify-evenly sm:flex md:pt-3 dark:bg-primary dark:text-secondary lg:flex-col lg:justify-center lg:pl-10 lg:pb-36 lg:h-screen lg:space-y-10') {
-      secondaryMenu.setAttribute('class', 'flex text-2xl font-light border-r secondary-menu justify-evenly sm:flex md:pt-3 dark:bg-primary dark:text-secondary lg:flex-col lg:justify-center lg:pl-10 lg:pb-36 lg:h-screen lg:space-y-10')
+    if (secondaryMenu.getAttribute('class') === 'hidden text-2xl font-light lg:border-r secondary-menu justify-evenly sm:flex md:pt-3 dark:bg-primary dark:text-secondary lg:flex-col lg:justify-center lg:pl-10 lg:pb-36 lg:h-screen lg:space-y-10') {
+      secondaryMenu.setAttribute('class', 'flex text-2xl font-light lg:border-r secondary-menu justify-evenly sm:flex md:pt-3 dark:bg-primary dark:text-secondary lg:flex-col lg:justify-center lg:pl-10 lg:pb-36 lg:h-screen lg:space-y-10')
     } else {
-      secondaryMenu.setAttribute('class', 'hidden text-2xl font-light border-r secondary-menu justify-evenly sm:flex md:pt-3 dark:bg-primary dark:text-secondary lg:flex-col lg:justify-center lg:pl-10 lg:pb-36 lg:h-screen lg:space-y-10')
+      secondaryMenu.setAttribute('class', 'hidden text-2xl font-light lg:border-r secondary-menu justify-evenly sm:flex md:pt-3 dark:bg-primary dark:text-secondary lg:flex-col lg:justify-center lg:pl-10 lg:pb-36 lg:h-screen lg:space-y-10')
     }
   }
 

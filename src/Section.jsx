@@ -1,3 +1,4 @@
+import { Button } from "./Button"
 export const Section = ({ colSpan }) => {
 
 
@@ -12,7 +13,7 @@ export const Section = ({ colSpan }) => {
             siempre buscando nuevas tecnologías y métodos con los que desarrollar mis proyectos.
             Actualmente formándome como desarrollador web <strong>"FullStack"</strong>, pricipalmente con tecnologías relacionadas
             con <strong>JavaScript</strong>.</p>
-          <button className="p-3 transition duration-500 ease-in-out border hover:bg-accent dark:hover:text-primary dark:text-secondary ">Contact Me</button>
+          <Button />
         </section>
       </div>
 
