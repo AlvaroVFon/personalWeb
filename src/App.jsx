@@ -1,6 +1,7 @@
 import { HeaderNav } from "./HeaderNav"
 import { Nav } from "./Nav"
 import { Section } from "./Section"
+import { Aside } from "./Aside"
 function App() {
 
 
@@ -10,9 +11,7 @@ function App() {
         <HeaderNav />
         <Nav />
         <Section colSpan='col-span-3' />
-        <aside className="dark:bg-primary">
-
-        </aside>
+        <Aside/>
       </div>
 
     </>
